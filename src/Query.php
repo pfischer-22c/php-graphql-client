@@ -24,14 +24,14 @@ class Query extends NestableObject
      *
      * @var string
      */
-    protected const QUERY_FORMAT = "%s%s%s";
+    const QUERY_FORMAT = "%s%s%s";
 
     /**
      * Stores the name of the type of the operation to be executed on the GraphQL server
      *
      * @var string
      */
-    protected const OPERATION_TYPE = 'query';
+    const OPERATION_TYPE = 'query';
 
     /**
      * Stores the name of the operation to be run on the server

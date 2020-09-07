@@ -16,7 +16,7 @@ class InlineFragment extends NestableObject
      *
      * @var string
      */
-    protected const FORMAT = '... on %s%s';
+    const FORMAT = '... on %s%s';
 
     /**
      * @var string

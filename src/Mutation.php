@@ -14,7 +14,7 @@ class Mutation extends Query
      *
      * @var string
      */
-    protected const OPERATION_TYPE = 'mutation';
+    const OPERATION_TYPE = 'mutation';
 
     /**
      * @return string
