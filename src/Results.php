@@ -58,7 +58,7 @@ class Results
     /**
      * @param bool $asArray
      */
-    public function reformatResults(bool $asArray): void
+    public function reformatResults(bool $asArray)
     {
         $this->results = json_decode($this->responseBody, (bool) $asArray);
     }
